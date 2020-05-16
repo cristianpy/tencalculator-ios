@@ -1,10 +1,11 @@
 //
 //  UIButtonExtension.swift
-//  iOS-Calculator
+//  tencalculator-ios
 //
-//  Created by Brais Moure on 12/01/2019.
-//  Copyright © 2019 MoureDev. All rights reserved.
+//  Created by Cristian Paniagua on 05/14/20.
+//  Copyright © 2020 Cristian Paniagua. All rights reserved.
 //
+
 import UIKit
 
 private let orange = UIColor(red: 254/255, green: 148/255, blue: 0/255, alpha: 1)
@@ -13,8 +14,8 @@ extension UIButton {
     
     // Borde redondo
     func round() {
-      layer.cornerRadius = bounds.height / 2 - 5
-        clipsToBounds = true
+      layer.cornerRadius = bounds.height / 2
+      clipsToBounds = true
     }
     
     // Brilla

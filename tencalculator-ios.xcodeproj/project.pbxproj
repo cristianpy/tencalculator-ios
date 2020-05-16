@@ -12,7 +12,7 @@
 		8B8E7CDC24462DA200F7801A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E7CDB24462DA200F7801A /* AppDelegate.swift */; };
 		8B8E7CE524462DA600F7801A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E7CE424462DA600F7801A /* Assets.xcassets */; };
 		8B8E7CE824462DA600F7801A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E7CE624462DA600F7801A /* LaunchScreen.storyboard */; };
-		8BC0C9BC246DBC060015E346 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C9BB246DBC060015E346 /* UIButtonExtension.swift */; };
+		8BC0C9C1246E2A2F0015E346 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C9C0246E2A2F0015E346 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		8B8E7CE424462DA600F7801A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B8E7CE724462DA600F7801A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B8E7CE924462DA600F7801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BC0C9BB246DBC060015E346 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		8BC0C9C0246E2A2F0015E346 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		8B6AD592244646E8001A513C /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				8BC0C9BB246DBC060015E346 /* UIButtonExtension.swift */,
+				8BC0C9C0246E2A2F0015E346 /* UIButtonExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 				8B8E7CDA24462DA200F7801A /* tencalculator-ios */,
 				8B8E7CD924462DA200F7801A /* Products */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 			usesTabs = 0;
 		};
 		8B8E7CD924462DA200F7801A /* Products */ = {
@@ -158,6 +158,7 @@
 				TargetAttributes = {
 					8B8E7CD724462DA200F7801A = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -198,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8E7CDC24462DA200F7801A /* AppDelegate.swift in Sources */,
+				8BC0C9C1246E2A2F0015E346 /* UIButtonExtension.swift in Sources */,
 				8B6AD59724464B77001A513C /* HomeViewController.swift in Sources */,
-				8BC0C9BC246DBC060015E346 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "tencalculator-ios/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +345,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tenondelab.tencalculator;
 				PRODUCT_NAME = Tencalculator;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "tencalculator-ios/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
