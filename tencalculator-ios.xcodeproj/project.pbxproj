@@ -13,6 +13,7 @@
 		8B8E7CE524462DA600F7801A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E7CE424462DA600F7801A /* Assets.xcassets */; };
 		8B8E7CE824462DA600F7801A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E7CE624462DA600F7801A /* LaunchScreen.storyboard */; };
 		8BC0C9C1246E2A2F0015E346 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C9C0246E2A2F0015E346 /* UIButtonExtension.swift */; };
+		8BE91C44246FA51900149C98 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8BE91C43246FA51900149C98 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B8E7CE724462DA600F7801A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B8E7CE924462DA600F7801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC0C9C0246E2A2F0015E346 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		8BE91C43246FA51900149C98 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		8B8E7CCF24462DA200F7801A = {
 			isa = PBXGroup;
 			children = (
+				8BE91C43246FA51900149C98 /* .gitignore */,
 				8B8E7CDA24462DA200F7801A /* tencalculator-ios */,
 				8B8E7CD924462DA200F7801A /* Products */,
 			);
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE91C44246FA51900149C98 /* .gitignore in Resources */,
 				8B8E7CE824462DA600F7801A /* LaunchScreen.storyboard in Resources */,
 				8B8E7CE524462DA600F7801A /* Assets.xcassets in Resources */,
 				8B6AD59824464B77001A513C /* HomeViewController.xib in Resources */,
